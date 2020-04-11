@@ -1,0 +1,2133 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GanscioHomebrew",
+				"abbreviation": "GH",
+				"full": "Ganscio Homebrew",
+				"url": "",
+				"authors": [
+					"Ganscio"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1586611820,
+		"dateLastModified": 1586611820
+	},
+	"monster": [
+		{
+			"name": "Waspider",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 2,
+			"dex": 14,
+			"con": 8,
+			"int": 1,
+			"wis": 10,
+			"cha": 2,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The spider ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 9} Constitution saving throw or take 2 ({@damage 1d4}) poison damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "c5b0cb03746ee26c293224ccaa50daf3"
+		},
+		{
+			"name": "Big Waspider",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "2d6 + 0",
+				"average": 7
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 10,
+			"int": 1,
+			"wis": 10,
+			"cha": 2,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The spider ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h} 4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or take 3 ({@damage 1d6}) poison damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "4fd9f0664ea447691a973cc71826d110"
+		},
+		{
+			"name": "Giant Waspider",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 0",
+				"average": 13
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 50,
+				"canHover": false
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The spider ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"paralyzed"
+			],
+			"uniqueId": "72eaa9f899a1685dc2e38da3e13c4098"
+		},
+		{
+			"name": "Enourmous Waspider",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d10 + 4",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 2,
+			"wis": 11,
+			"cha": 4,
+			"skill": {
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The spider ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+					]
+				},
+				{
+					"name": "Web {@recharge 5}",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 12} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"paralyzed",
+				"restrained"
+			],
+			"uniqueId": "e2c39bcc85e187799752f2d1f06d62d6"
+		},
+		{
+			"name": "Demonbear",
+			"source": "GanscioHomebrew",
+			"size": "H",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					{
+						"tag": "beast",
+						"prefix": "demonic"
+					}
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 103,
+				"formula": "9d12 + 45"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 24,
+			"dex": 14,
+			"con": 20,
+			"int": 2,
+			"wis": 13,
+			"cha": 7,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the demonbear moves at least 20 ft. straight toward a creature and then hits it with a horn attack on the same turn, that target must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the demonbear can make one horn attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bear makes two attacks: one with its horns and one with its claws."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}28 ({@damage 6d6 + 7}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pounce"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"uniqueId": "4bd9e137a9e968dce3502ba2f0bcf378"
+		},
+		{
+			"name": "Fox",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Cunning Escape",
+					"entries": [
+						"Opportunity attacks have disadvantage on the fox."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "be89001af4ebc3a1e5793fe4cfe2bf75"
+		},
+		{
+			"name": "Sphinx",
+			"source": "GanscioHomebrew",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 52,
+				"formula": "5d10 + 25"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 20,
+			"int": 4,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"stealth": "+8",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Nondetection",
+					"entries": [
+						"The sphinx cannot be targeted or detected by any divination magic or perceived through magical scrying sensors."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the sphinx moves at least 20 feet straight toward a creature then hits it with a claw attack on the same turn, that target must succeed on a DC15 Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the sphinx can make one bite attack against it as a bonus action."
+					]
+				},
+				{
+					"name": "Spell Turning",
+					"entries": [
+						"The sphinx has advantage on saving throws against any spell that targets only the sphinx (not an area). If the sphinx's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the sphinx and instead targets the caster."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pounce"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"uniqueId": "5122a669f000f0260104d4bbcf0937b4"
+		},
+		{
+			"name": "Hydra",
+			"source": "GanscioHomebrew",
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d12 + 65",
+				"average": 149
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 30
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 7,
+			"skill": {
+				"stealth": "+3",
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hydra can breathe air and water."
+					]
+				},
+				{
+					"name": "Multiple Claws",
+					"entries": [
+						"The hydra has three claws. Whenever the hydra takes 25 or more damage in a single turn, one of its claws is cut off or otherwise broken and fallen off. At the end of its turn, it grows two claws for each of its claws that has fallen off since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each claw regrown in this way."
+					]
+				},
+				{
+					"name": "Reactive Claws",
+					"entries": [
+						"For each claw the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+					]
+				},
+				{
+					"name": "Wakeful",
+					"entries": [
+						"While the hydra sleeps, one of its heads is awake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hydra makes as many claw attacks as it has claws."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). The crab can grapple one target with each claw."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Crabs with 2 snake heads instead of eyes. When one claw is cut, two grow from the cut."
+								]
+							}
+						]
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflicted": [
+				"grappled"
+			],
+			"uniqueId": "d40e164ae8fc6b84075cf96221f9426d"
+		},
+		{
+			"name": "Haungharassk",
+			"isNpc": true,
+			"source": "GanscioHomebrew",
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				6
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d12 + 7"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 20,
+			"dex": 3,
+			"con": 13,
+			"int": 3,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Salt Sensitivity",
+					"entries": [
+						"A pound of salt thrown onto the snail's skin deals {@dice 1d6} acid damage to the creature."
+					]
+				},
+				{
+					"name": "Magical Properties",
+					"entries": [
+						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell remove curse} spell. The snail loses these magical properties if it dies."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Haungharassk",
+				"source": "WDMM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Haungharassk is a magical snail as large as an elephant, with a shell of gleaming gold."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/WDMM/Haungharassk.png?v=1.99.2",
+			"uniqueId": "d16d81e6bac873b47ea5ae0a453127b5"
+		},
+		{
+			"name": "Giant Raven",
+			"source": "GanscioHomebrew",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 22,
+				"formula": "3d10 + 6"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 15,
+			"dex": 10,
+			"con": 15,
+			"int": 6,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"understands Common but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The raven has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The raven has advantage on an attack roll against a creature if at least one of the raven's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The raven makes two attacks: one with its beak and one with its talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SKT/Giant Raven.png?v=1.99.2",
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "76183b3035537fc35dc54726185e1daf"
+		},
+		{
+			"name": "Owlctopus",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": 60
+			},
+			"str": 3,
+			"dex": 13,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The owlctopus's innate spellcasting ability is Wisdom (spell save {@dc 11}). It can innately cast the following spells, requiring no components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand|PHB}"
+							]
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The owl has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage. If the target is Tiny, it is {@condition grappled} (escape {@dc 10}). Until this grapple ends, the owlctopus can't use its tentacles on another target and it can't fly."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest"
+			],
+			"familiar": true,
+			"tokenUrl": "https://5e.tools/img/MM/Owl.png?v=1.99.2",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/377/owl.mp3",
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Tentacles"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"grappled"
+			],
+			"uniqueId": "4fa62004f1539a157a24963fbea7456a"
+		},
+		{
+			"name": "Diglet",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d4 + 1"
+			},
+			"speed": {
+				"walk": 10,
+				"burrow": 10
+			},
+			"str": 4,
+			"dex": 11,
+			"con": 12,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft.",
+				"blindsight 10 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The diglet has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Grounded",
+					"entries": [
+						"The diglet is always halfway buried in the ground and can't come out. If a diglet is forcibly taken out of the ground, it takes 1 damage at the end of each round it ends without being in the ground."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "0e67a9da72705f4e3378ae6d3601e412"
+		},
+		{
+			"name": "Squeeld",
+			"source": "GanscioHomebrew",
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"swim": 40
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 9,
+			"int": 1,
+			"wis": 7,
+			"cha": 2,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The squeeld can breathe only underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage, and the target must succeed on a {@dc 10} Constitution saving throw or take 2 ({@damage 1d4}) lightning damage."
+					]
+				},
+				{
+					"name": "Ink Cloud (Recharges after a Short or Long Rest)",
+					"entries": [
+						"A 5-foot-radius cloud of ink extends all around the squeeld if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the squeeld can use the Dash action as a bonus action. Creatures ending their turn in the cloud must succeed on a {@dc 10} Constitution saving throw or take 2 ({@damage 1d4}) lightning damage."
+					]
+				}
+			],
+			"familiar": true,
+			"tokenUrl": "https://5e.tools/img/GoS/Fish.png?v=1.99.2",
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"L"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"uniqueId": "295cda88e80462e529fcc2f93b5d6742"
+		},
+		{
+			"name": "Flying Fish",
+			"source": "GanscioHomebrew",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "2d6 + 0",
+				"average": 7
+			},
+			"speed": {
+				"swim": 40,
+				"fly": 20,
+				"canHover": false
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 11,
+			"int": 1,
+			"wis": 7,
+			"cha": 2,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The fish can breathe only underwater."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/GoS/Fish.png?v=1.99.2",
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [],
+			"uniqueId": "90d19f205c6acbeec6828eff32f7acd3"
+		},
+		{
+			"name": "Crustacean Frog",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d4 + 0",
+				"average": 2
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 1,
+			"dex": 13,
+			"con": 10,
+			"int": 1,
+			"wis": 8,
+			"cha": 3,
+			"skill": {
+				"perception": "+1",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The frog can breathe air and water"
+					]
+				},
+				{
+					"name": "Grapple and Swallow",
+					"entries": [
+						"If the crustacean frog successfully grapples a creature smaller than itself, it can swallow it immediately. The only way to escape is to kill the frog."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Frog",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground. The frog's statistics can also be used to represent a toad."
+								]
+							}
+						]
+					}
+				]
+			},
+			"familiar": true,
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"uniqueId": "0cd6842dc609f1358dae259c51ff0081"
+		},
+		{
+			"name": "Centant",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d4 + 0",
+				"average": 2
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 1,
+			"wis": 10,
+			"cha": 2,
+			"skill": {
+				"stealth": "+2"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Ant Climb",
+					"entries": [
+						"The centant can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 9} Constitution saving throw or take 2 ({@damage 1d4}) poison damage."
+					]
+				}
+			],
+			"familiar": true,
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "893e78128efe4e0599132272eab604d0"
+		},
+		{
+			"name": "Wererabbit",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kemono"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item padded armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"nature": "+4",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The wererabbit has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Lucky Paws",
+					"entries": [
+						"When the wererabbit rolls a 1 on an attack roll, ability check, or saving throw, it can reroll the die and must use the new roll. If the wererabbit loses a hand or foot, it loses this ability as it is now bestowed to whoever holds that limb."
+					]
+				},
+				{
+					"name": "Natural Runner",
+					"entries": [
+						"When the wererabbit takes the Dash or Disengage action, increase its speed by an additional 10 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scout makes two kick attacks."
+					]
+				},
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "0b0903381a77a87870caf6ffe3343e04"
+		},
+		{
+			"name": "Weretiger",
+			"source": "GanscioHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kemono"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item padded armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 10",
+				"average": 55
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+5",
+				"int": "+2"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"athletics": "+2",
+				"perception": "+2",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the weretiger can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the weretiger is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the weretiger instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The weretiger deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the weretiger that isn't {@condition incapacitated} and the weretiger doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The weretiger makes three attacks with its claws."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The weretiger halves the damage that it takes from an attack that hits it. The weretiger must be able to see the attacker."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"incapacitated"
+			],
+			"uniqueId": "9fb64d207e9911e36d5fb6c9c8799f7c"
+		},
+		{
+			"name": "Werewolf",
+			"group": "Lycanthropes",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kemono"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"investigation": "+2",
+				"athletics": "+5"
+			},
+			"passive": 14,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Sleuth Hound",
+					"entries": [
+						"The werewolf can remember the smell of anyone it fights. If a creature runs away from a fight with a werewolf, the werewolf will be able to track them for a week."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The werewolf makes two attacks one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. If the target is a kemono, it must succeed on a {@dc 13} Constitution saving throw or be cursed with lycanthropy."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "5b455cfaa7e80bd6db25c660d7b9f8ec"
+		},
+		{
+			"name": "Divine Deer",
+			"source": "GanscioHomebrew",
+			"page": 321,
+			"srd": true,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 13,
+			"int": 2,
+			"wis": 14,
+			"cha": 5,
+			"passive": 12,
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Magical Horns",
+					"headerEntries": [
+						"Divine Deers have 2 magical horns that can cast spells. Each horn holds a level 1 spell that can be cast 1d3 times. The horns regain 1d3 charges daily at dawn as long as they are still attached to the divine deer."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fragile Horns",
+					"entries": [
+						"Whenever the divine dear is dealt damage, roll a {@dice d20}. On a 1 one of the horns break. If it is dealt bludgeoning damage, one horn breaks on a 1 or a 2. If the divine deer is defeated without breaking its horns, they can be harvested as wands, but don't recharge."
+					]
+				},
+				{
+					"name": "Wild Shape Magic",
+					"entries": [
+						"If a druid wildshapes into a divine deer, they can choose 2 of their prepared spells and they are able to cast them without vocal components, using their horns for somatic components and as spellcasting focuses."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}15 ({@damage 5d4 + 3}) piercing damage. If the divine deer rolls a 1 on an attack roll, one of its horns breaks."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "f5ada6e25347f5cf59ecedc555f90f67"
+		},
+		{
+			"name": "Giraffe Gorilla",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d12 + 48"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 18,
+			"int": 7,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"athletics": "+9",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Extendable Limbs",
+					"entries": [
+						"The giraffe gorilla can extends its neck, legs and arms up to 30 feet in lenght."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ape makes two fist or extended fist attacks."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 50/100 ft., one target. {@h}23 ({@damage 5d6 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Extended Fist",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, reach 30 ft., one target. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage. If the line connecting the giraffe gorilla and its target passes thorugh any other creature reach, it provokes attacks of opportunity."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"uniqueId": "d35c1c38541bce03e3f0e304f372e2ab"
+		},
+		{
+			"name": "Ground Dragon",
+			"source": "GanscioHomebrew",
+			"srd": true,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"swim": 30
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 15,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The ground dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The ground dragon can hold its breath for 15 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 3}) piercing damage and 1 fire damage."
+					]
+				},
+				{
+					"name": "Spit Oil (Recharges after a Short or Long Rest).",
+					"entries": [
+						"The ground dragon spits oil at a creature within 10 feet of it. The creature must make a {@dc 13} Dexterity saving throw or be covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil."
+					]
+				}
+			],
+			"traitTags": [
+				"Hold Breath",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "39f23ee4ccf17790a75258b415875f32"
+		},
+		{
+			"name": "Mimic",
+			"source": "GanscioHomebrew",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 15,
+			"int": 5,
+			"wis": 13,
+			"cha": 8,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"prone"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Adhesive (Object Form Only)",
+					"entries": [
+						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 13}). Ability checks made to escape this grapple have disadvantage."
+					]
+				},
+				{
+					"name": "False Appearance (Object Form Only)",
+					"entries": [
+						"While the mimic remains motionless, it is indistinguishable from an ordinary object."
+					]
+				},
+				{
+					"name": "Grappler",
+					"entries": [
+						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Mimic",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Mimics are shapeshifting predators able to take on the form of inanimate objects to lure creatures to their doom. In dungeons, these cunning creatures most often take the form of doors and chests, having learned that such forms attract a steady stream of prey.",
+									{
+										"name": "Imitative Predators",
+										"type": "entries",
+										"entries": [
+											"Mimics can alter their outward texture to resemble wood, stone, and other basic materials, and they have evolved to assume the appearance of objects that other creatures are likely to come into contact with. A mimic in its altered form is nearly unrecognizable until potential prey blunders into its reach, whereupon the monster sprouts pseudopods and attacks.",
+											"When it changes shape, a mimic excretes an adhesive that helps it seize prey and weapons that touch it. The adhesive is absorbed when the mimic assumes its amorphous form and on parts the mimic uses to move itself."
+										]
+									},
+									{
+										"name": "Cunning Hunters",
+										"type": "entries",
+										"entries": [
+											"Mimics live and hunt alone, though they occasionally share their feeding grounds with other creatures. Although most mimics have only predatory intelligence, a rare few evolve greater cunning and the ability to carry on simple conversations in Common or Undercommon. Such mimics might allow safe passage through their domains or provide useful information in exchange for food."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Mimic.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Mimic.png?v=1.102.5",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/334/mimic.mp3",
+			"traitTags": [
+				"False Appearance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "16d8e200af7d7abd0c47200c47f5f823"
+		},
+		{
+			"name": "Yugh",
+			"source": "GanscioHomebrew",
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d10 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 19,
+			"int": 6,
+			"wis": 13,
+			"cha": 6,
+			"save": {
+				"con": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The otyugh can magically transmit simple messages and images to any creature within 120 feet of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The otyugh makes three attacks: one with its bite and two with its tentacles."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw against disease or become {@condition poisoned} until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 4 ({@damage 1d8}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and {@condition restrained} until the grapple ends. The otyugh has two tentacles, each of which can grapple one target."
+					]
+				},
+				{
+					"name": "Tentacle Slam",
+					"entries": [
+						"The otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature must succeed on a {@dc 14} Constitution saving throw or take 10 ({@damage 2d6 + 3}) bludgeoning damage and be {@condition stunned} until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition stunned}."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/BhR6A7v.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PPciZDD.png",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/376/otyugh.mp3",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"restrained",
+				"stunned"
+			],
+			"uniqueId": "624752ab90edca2adf0f627d342569d3"
+		}
+	]
+}
